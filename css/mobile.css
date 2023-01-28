@@ -1,0 +1,65 @@
+/*avarege screen tablet*/
+@media(max-width:64rem){
+    .flex-nav{padding:1rem;}
+  
+    .item-f
+    .columns,
+    .grid-items,
+    #hero .content{padding:0 0.8rem;}
+  
+    #promo{height: 50vh;}
+}
+/*Small screen cellphones*/
+@media(max-width:48.5rem){
+    /*body{font-size: 15px;}*/
+    body{font-size:0.9375rem;}
+
+    h2{font-size: 1.5rem;}
+
+    .text{font-size: 1.2rem;}
+
+    #hero .content{height:60%;}
+
+    #hero .content h1{font-size:1.5rem;}
+
+  #hero .content p{
+    width: 100%;
+    font-size: 1rem;
+    padding:1rem 0;
+  }
+  .nav-icon{display:block}
+
+    #main-nav{display:none;}
+
+   .nav-icon{display:block}
+
+    #main-nav{
+        float:left;
+        margin-top:2rem;
+    }
+
+    #main-nav li{
+      display:block;
+      padding:7px 0;
+    }
+
+    #main-nav li a:visited,
+    #main-nav li a:link{
+        display:block;
+        padding:3px 0;
+        font-size:100%;
+        z-index:2;
+    }
+
+    .columns{
+      flex-direction:column;
+    }
+
+    .columns p{margin-left:0.8rem;}
+
+    .item-f{width:100%;}
+
+    .sticky .nav-icon span{background: var(--color-primary);}
+
+    #stroke #main-nav li a:hover::after{width:0;}
+}
