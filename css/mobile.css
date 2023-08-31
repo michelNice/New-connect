@@ -14,16 +14,7 @@
     #promo{height: 50vh;}
 
 
-    .float{
-      width:1.875rem;
-      height:1.875rem;
-      bottom:1.25rem;
-      right:1.25rem;
-      font-size:0.938rem;
-  
-    }
-    
-    .my-float{margin-top:0.5rem;}
+   
 
 
     #hero .logo{padding:0 0.7rem;}
@@ -89,6 +80,18 @@
     .sticky .nav-icon span{background: var(--color-primary);}
 
     #stroke #main-nav li a:hover::after{width:0;}
+
+
+    .float{
+      width:1.875rem;
+      height:1.875rem;
+      bottom:1.25rem;
+      right:1.25rem;
+      font-size:0.938rem;
+  
+    }
+    
+    .my-float{margin-top:0.5rem;}
 }
 
 
