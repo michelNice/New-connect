@@ -3,7 +3,7 @@
   /*screen tablets*/   
 /*********************/
 
-@media(max-width:50rem){
+@media(max-width:80rem){
     .flex-nav{padding:1rem;}
   
     .item-f
@@ -25,6 +25,11 @@
     
     .my-float{margin-top:0.5rem;}
 
+
+    #hero .logo{padding:0 0.7rem;}
+
+
+
 }
 
 /*********************/
@@ -33,7 +38,7 @@
 
 
 @media(max-width:48.5rem){
-    /*body{font-size: 15px;}*/
+  
     body{font-size:0.9375rem;}
 
     h2{font-size: 1.5rem;}
