@@ -405,19 +405,3 @@ button[type=submit]:hover{background: var(--color-secondary);}
 
 
 
-.float-whats{
-  position: fixed;
-  width:3.75rem;
-  height: 3.75rem;
-  bottom: 2.5rem;
-  right: 2.5rem;
-  background-color:#25d366;
-  text-align: center;
-  border-radius: 3.75rem;
-  font-size:1.875rem;
-  z-index: 100;
-  box-shadow: 2px 2px 3px #999;
-  color: var(--color-tertiary);
-}
-
-.my-float{margin-top:1rem;}
