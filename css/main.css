@@ -408,17 +408,15 @@ button[type=submit]:hover{background: var(--color-secondary);}
 	position:fixed;
 	width:3.75rem;
 	height:3.75rem;
-	bottom:3.75rem;
+	bottom:2.5rem;
 	right:2.5rem;
 	background-color:#25d366;
 	color:var(--color-tertiary);
 	border-radius:3.125rem;
 	text-align:center;
-  font-size:2rem;
+  font-size:1.875rem;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
 }
 
-.my-float{
-	margin-top:1rem;
-}
+.my-float{margin-top:1rem}
