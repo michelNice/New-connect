@@ -13,6 +13,24 @@
   
     #promo{height: 50vh;}
 
+
+    .float{
+      width:30px;
+      height:30px;
+      bottom:30px;
+      right:20px;
+      border-radius:25px;
+      font-size:15px;
+      box-shadow: 1px 1px 1.5px #999;
+    
+  
+  
+    }
+    
+    .my-float{
+      margin-top:8px;
+    }
+
 }
 
 /*********************/
@@ -75,5 +93,26 @@
 }
 
 
+/*
 
 
+@media(max-width:28rem){
+  .float{
+    width:30px;
+    height:30px;
+    bottom:30px;
+    right:20px;
+    border-radius:25px;
+    font-size:15px;
+    box-shadow: 1px 1px 1.5px #999;
+  
+
+
+  }
+  
+  .my-float{
+    margin-top:8px;
+  }
+  
+}
+*/
