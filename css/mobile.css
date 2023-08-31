@@ -1,5 +1,9 @@
-/*avarege screen tablet*/
-@media(max-width:51rem){
+
+/*********************/
+  /*screen tablets*/   
+/*********************/
+
+@media(max-width:50rem){
     .flex-nav{padding:1rem;}
   
     .item-f
@@ -8,8 +12,14 @@
     #hero .content{padding:0 0.8rem;}
   
     #promo{height: 50vh;}
+
 }
-/*Small screen cellphones*/
+
+/*********************/
+/*screen cellphones*/   
+/*********************/
+
+
 @media(max-width:48.5rem){
     /*body{font-size: 15px;}*/
     body{font-size:0.9375rem;}
@@ -63,3 +73,7 @@
 
     #stroke #main-nav li a:hover::after{width:0;}
 }
+
+
+
+
