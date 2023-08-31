@@ -15,21 +15,17 @@
 
 
     .float{
-      width:30px;
-      height:30px;
-      bottom:30px;
-      right:20px;
-      border-radius:25px;
-      font-size:15px;
+      width:1.875rem;
+      height:1.875rem;
+      bottom:1.875rem;
+      right:1.25rem;
+      border-radius:1.563rem;
+      font-size:0.938rem;
       box-shadow: 1px 1px 1.5px #999;
-    
-  
   
     }
     
-    .my-float{
-      margin-top:8px;
-    }
+    .my-float{margin-top:0.438rem;}
 
 }
 
@@ -93,26 +89,4 @@
 }
 
 
-/*
 
-
-@media(max-width:28rem){
-  .float{
-    width:30px;
-    height:30px;
-    bottom:30px;
-    right:20px;
-    border-radius:25px;
-    font-size:15px;
-    box-shadow: 1px 1px 1.5px #999;
-  
-
-
-  }
-  
-  .my-float{
-    margin-top:8px;
-  }
-  
-}
-*/
