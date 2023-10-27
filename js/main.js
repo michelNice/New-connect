@@ -92,4 +92,49 @@ $('.js--wp-1').waypoint(function(derection){
   },{
     offset:'50%'
   })
+
+  /*********************/
+    /*Modal windown*/
+  /*********************/
+
+
+  const btn_open = document.querySelector('.btn-price')
+  const btn_close = document.querySelector('.btn-close')
+  const overlay = document.querySelector('.overlay')
+  const modal = document.querySelector('.model')
+  const modal_prevent = document.querySelector('.modal-prevent')
+
+  console.log(modal_prevent)
+
+  function openModal(){
+      modal.classList.remove('hidden')
+      overlay.classList.remove('hidden')
+      modal_prevent.classList.add('scroll')
+  }
+
+  function closeModal(){
+    modal.classList.add('hidden')
+    overlay.classList.add('hidden')
+    modal_prevent.classList.remove('scroll')
+  }
+
+  document.addEventListener("keydown",function(event){
+
+    if(event.key === 'Escape' && !modal.classList.contains('hidden')){
+        closeModal()
+    }
+
+  })
+
+  overlay.addEventListener('click',closeModal)
+  btn_close.addEventListener('click',closeModal)
+  btn_open.addEventListener('click',openModal)
+
+
+  
+
+  
+
+
+
   

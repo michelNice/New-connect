@@ -61,7 +61,7 @@
         display:block;
         padding:3px 0;
         font-size:100%;
-        z-index:2;
+        z-index:1;
     }
 
     .columns{
@@ -87,6 +87,16 @@
     }
     
     .my-float{margin-top:0.5rem;}
+
+
+    .model{
+      width:90%;
+      height: 200px;
+      top: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+   
 }
 
 
