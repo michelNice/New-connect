@@ -440,8 +440,8 @@ button[type=submit]:hover{background: var(--color-secondary);}
   position:fixed;
   z-index:2;
   left: 50%;
-  top:20%;
-  transform: translate(-50%,50%);
+  top:50%;
+  transform: translate(-50%,-50%);
   
 }
 

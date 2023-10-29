@@ -33,7 +33,7 @@
 
     #hero .content{height:60%;}
 
-    #hero .content h1{font-size:1.5rem;}
+    #hero .content h1{font-size:1.3rem;}
 
   #hero .content p{
     width: 100%;
@@ -93,7 +93,6 @@
       width:90%;
       height: 200px;
       top: 51%;
-      transform: translate(-50%,-50%);
     }
 
    
