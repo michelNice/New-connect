@@ -442,7 +442,6 @@ button[type=submit]:hover{background: var(--color-secondary);}
   left: 50%;
   top:50%;
   transform: translate(-50%,-50%);
-  
 }
 
 .modal-grup{
@@ -481,6 +480,7 @@ button[type=submit]:hover{background: var(--color-secondary);}
 }
 
 .hidden{display:none;}
+
 
 .scroll{overflow: hidden;}
 
