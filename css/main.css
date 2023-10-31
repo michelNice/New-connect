@@ -479,11 +479,20 @@ button[type=submit]:hover{background: var(--color-secondary);}
   z-index:1;
 }
 
-.hidden{display:none;}
-
+.hidden{display: none;}
 
 .scroll{overflow: hidden;}
 
+
+
+@keyframes fade{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
 
 
 
