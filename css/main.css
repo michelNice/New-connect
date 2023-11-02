@@ -442,6 +442,8 @@ button[type=submit]:hover{background: var(--color-secondary);}
   left: 50%;
   top:50%;
   transform: translate(-50%,-50%);
+  animation: fadeEffect 1s;
+  -webkit-animation: fadeEffect 1s;
 }
 
 .modal-grup{
@@ -477,6 +479,8 @@ button[type=submit]:hover{background: var(--color-secondary);}
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(3px);
   z-index:1;
+  animation: fadeEffect 1s;
+  -webkit-animation: fadeEffect 1s;
 }
 
 .hidden{display: none;}
@@ -485,15 +489,14 @@ button[type=submit]:hover{background: var(--color-secondary);}
 
 
 
-@keyframes fade{
-  0%{
-    opacity:0;
-  }
-  100%{
-    opacity:1;
-  }
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
-
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 
 
 
